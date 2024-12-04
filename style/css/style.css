@@ -1,0 +1,36 @@
+ nav ul {
+    display: flex; /* aligner les elements*/
+    list-style-type: none; /* enlever les points devant les listes non ordonnée*/
+    justify-content: center; /* centrer les elements*/
+    gap: 20px; /* expacement entre les elements*/
+}
+nav a {
+    text-decoration: none; /* supression du soulignement*/
+    color: black;
+}
+/*pour survoler les couleurs*/
+nav a:hover{ 
+    color: red;
+}
+
+section{
+    margin-top: 50px;
+}
+.containeur{
+    display: grid;
+    grid-template-columns: 50% 50%; /* permet d'afficher sous forme de grille ou colones*/
+    height: 600px;
+    gap: 50px;
+}
+
+.div-un{
+    margin: auto;
+    text-align: center;
+}
+.div-deux{
+    margin: auto;
+}
+.div-deux img{
+    max-width: 500px;
+    max-height: 400px;
+}
